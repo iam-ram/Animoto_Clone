@@ -6,8 +6,8 @@ import time
 from boto.sqs.message import Message
 conn = boto.dynamodb.connect_to_region(
         "us-west-2",
-        aws_access_key_id  = 'AKIAIVVL3QK5VFBA2DTQ',
-        aws_secret_access_key = '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')
+        aws_access_key_id  = '*****************',
+        aws_secret_access_key = '**************************')
 message_table_schema = conn.create_schema(
         hash_key_name='jobid',
         hash_key_proto_value=str,
