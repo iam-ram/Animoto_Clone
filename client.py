@@ -5,8 +5,8 @@ import sys
 import boto.sqs
 conn = boto.sqs.connect_to_region(
         "us-west-2",
-        aws_access_key_id  = 'AKIAIVVL3QK5VFBA2DTQ',
-        aws_secret_access_key = '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'
+        aws_access_key_id  = 'AKIAIVVL3QK5DFGJJKLNNGGH',
+        aws_secret_access_key = 'Ea+F7rQ0OeGUKJ3f4VvMCmGGHJJKKLLL'
 )
 
 
